@@ -1,0 +1,66 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #ffa500, #ffcc00);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .slot-machine {
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      max-width: 320px;
+      width: 90%;
+    }
+
+    .reels {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .reel {
+      width: 60px;
+      height: 60px;
+      border: 2px solid #ff9900;
+      border-radius: 10px;
+      margin: 0 5px;
+      font-size: 2rem;
+      line-height: 60px;
+      background: #f8f8f8;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e65c00;
+    }
+
+    #resultado {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    #moedas {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
