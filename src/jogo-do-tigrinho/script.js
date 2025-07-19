@@ -25,7 +25,7 @@
 
       let rodadas = 0;
       const tempoTotal = 2000; // gira por 2 segundos
-      const intervalo = 100;   // troca símbolos a cada 100ms
+      const intervalo = 75;   // troca símbolos a cada 100ms
 
       const interval = setInterval(() => {
         // Simula a roleta girando
@@ -39,7 +39,7 @@
           som.pause();
 
           // 30% de chance de vitória
-          const chanceVitoria = Math.random() < 0.1; 
+          const chanceVitoria = Math.random() < 0.2; 
 
           let r1, r2, r3;
           if (chanceVitoria) {
@@ -57,7 +57,7 @@
           if (r1 === r2 && r2 === r3) {
             resultado.innerText = '🎉 Você ganhou 50 moedas! 🎉';
             resultado.style.color = 'green';
-            moedas += 50;
+            moedas += 100;
           } else {
             resultado.innerText = 'Tente novamente!';
             resultado.style.color = 'red';

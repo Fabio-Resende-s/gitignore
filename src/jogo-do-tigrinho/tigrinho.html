@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do Tigrinho</title>
+  <link rel="stylesheet" href="./staly2.css">
+  
+</head>
+<body>
+
+
+  <h1> Novo Remanso Tigrinho 🎰</h1>
+
+  <div class="slot-machine">
+    <p id="moedas">Moedas: 1000 🪙</p>
+    <div class="reels">
+      <div class="reel" id="reel1">🐯</div>
+      <div class="reel" id="reel2">🍍</div>
+      <div class="reel" id="reel3">💎</div>
+    </div>
+    <button onclick="girar()">GIRAR</button>
+    <div id="resultado">Boa sorte!</div>
+  </div>
+
+  <!-- Som do giro -->
+  <audio id="somGiro" src="https://assets.mixkit.co/sfx/preview/mixkit-casino-slot-machine-908.mp3"></audio>
+
+
+<script src="script.js"></script>
+</body>
+</html>

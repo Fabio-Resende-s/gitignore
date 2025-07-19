@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Cobrinha</title>
+  <link rel="stylesheet" href="./staly1.css">
+  
+</head>
+<body>
+  <h1>🐍 Jogo da Cobrinha 🐍</h1>
+  <canvas id="jogo" width="300" height="300"></canvas>
+  <p id="pontuacao">Pontuação: 0</p>
+
+  <div class="controles">
+    <button class="btn" onclick="mudarDirecao('LEFT')">⬅</button>
+    <button class="btn" onclick="mudarDirecao('UP')">⬆</button>
+    <button class="btn" onclick="mudarDirecao('DOWN')">⬇</button>
+    <button class="btn" onclick="mudarDirecao('RIGHT')">➡</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
